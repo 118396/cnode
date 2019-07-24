@@ -4,6 +4,7 @@ import Article from '../components/Article'
 import PostList from '../components/PostList'
 import UserInfo from '../components/userInfo'
 import SlideBar from  '../components/SlideBar'
+import About from '../components/About'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +16,13 @@ export default new Router({
         main:PostList
       } 
     },
+    {
+      name: 'about',
+      path: '/about/',
+      components: {
+          main: About
+      }
+  },
     {
       name :'post_content',
       path:'/topic/:id&author=:name',

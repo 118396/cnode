@@ -23,8 +23,12 @@ export default {
 </script>
 
 <style>
+*{
+  padding: 0;
+  margin: 0;
+}
 .main{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 </style>
